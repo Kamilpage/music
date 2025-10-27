@@ -1,0 +1,38 @@
+.header {
+    padding-top: 30px;
+    background-color: #1C1B21;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__nav {
+
+}
+
+.header__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    z-index: 999;
+}
+
+.header__links a{
+    transition: all 0.4s ease-in-out;
+cursor: pointer;
+}
+
+.header__links a:hover {
+    text-decoration: underline;
+}

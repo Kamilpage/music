@@ -1,0 +1,16 @@
+@import "assets/styles/normalise.css";
+.container {
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins', 'sans-serif';
+    color: #ffff;
+    margin: 0;
+}
+
+
