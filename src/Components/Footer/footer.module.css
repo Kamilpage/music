@@ -1,0 +1,33 @@
+.footer{
+
+    background-color: #1C1B21;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+
+
+.footer__socials{
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer__socials img{
+    padding: 10px;
+    background-color: #7A66CC;
+    border: 8px #2C2C2C solid;
+    border-radius: 50%;
+}
+
+.footer__socials img:after {
+    content: "";
+
+}

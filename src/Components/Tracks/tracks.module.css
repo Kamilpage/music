@@ -1,12 +1,14 @@
 .tracks {
     background-color: #1C1B21;
+
 }
 
 .tracks__inner {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px
+    gap: 60px;
+    padding-bottom: 180px;
 }
 
 .tracks__left {
