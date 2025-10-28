@@ -23,7 +23,6 @@ const Hero = () => {
     return (
         <section className={styles.hero}>
             <div className={styles.hero__bg}>
-
                 <div className='container'>
                     <div className={styles.hero__inner}>
                         <div>

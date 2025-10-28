@@ -28,9 +28,9 @@
     z-index: 999;
 }
 
-.header__links a{
+.header__links a {
     transition: all 0.4s ease-in-out;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .header__links a:hover {

@@ -1,9 +1,9 @@
-.footer{
+.footer {
 
     background-color: #1C1B21;
 }
 
-.footer__inner{
+.footer__inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,22 +12,56 @@
 
 }
 
+.footer__logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 
 
-.footer__socials{
+.footer__socials {
     display: flex;
     gap: 30px;
+    padding-bottom: 40px;
 
 }
 
-.footer__socials img{
+.footer__socials img {
     padding: 10px;
     background-color: #7A66CC;
     border: 8px #2C2C2C solid;
     border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-.footer__socials img:after {
-    content: "";
+.footer__socials img:hover:nth-child(1) {
+    background-color: lightgrey;
+}
+.footer__socials img:hover:nth-child(2) {
+    background-color: green;
+}
+.footer__socials img:hover:nth-child(3) {
+    background-color: orange;
+}
+.footer__socials img:hover:nth-child(4) {
+    background-color: red;
+}
+.footer__socials img:hover:nth-child(5) {
+    background-color: lightskyblue;
+}
+.footer__socials img:hover:nth-child(6) {
+    background-color: dodgerblue;
+}
 
+
+
+.footer__end p {
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.5;
+    padding-bottom: 40px;
 }

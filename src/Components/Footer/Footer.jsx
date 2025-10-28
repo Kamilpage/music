@@ -31,7 +31,9 @@ const Footer = () => {
                         <img src={x} alt="x"/>
                         <img src={facebook} alt="facebook"/>
                     </div>
-
+                    <div className={styles.footer__end}>
+                        <p>© 2020 DJ bright lights.</p>
+                    </div>
                 </div>
 
             </div>
