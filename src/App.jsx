@@ -1,18 +1,24 @@
 import './App.css';
 import Hero from "./Components/Hero/Hero.jsx";
-import About from "./Components/About/About.jsx";
-import Tracks from "./Components/Tracks/Tracks.jsx";
+import Releases from "./Components/Releases/Releases.jsx";
+import LastTracks from "./Components/LastTracks/LastTracks.jsx";
 import Gallery from "./Components/Gallery/Gallery.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import About from "./Components/About/About.jsx";
+import Testimonial from "./Components/Testimonial/Testimonial.jsx";
+import TourDates from "./Components/TourDates/TourDates.jsx";
 
 function App() {
 
     return (
         <>
             <Hero />
-            <About />
-            <Tracks />
+            <Releases />
+            <About/>
+            <Testimonial />
+            <LastTracks />
             <Gallery />
+            <TourDates/>
             <Footer />
         </>
     )
