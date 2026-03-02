@@ -8,10 +8,11 @@ const Hero = () => {
         <section className={styles.hero}>
             <div className={styles.overlay} />
 
+            {/* Header */}
             <header className={styles.header}>
                 <div className={styles.logoBlock}>
-                    <img src={logo} alt="logo" className={styles.logo} />
-                    <img src={logo2} alt="logo" className={styles.logo} />
+                    <img src={logo} alt="logo" className={styles.logo}/>
+                    <img src={logo2} alt="brand" className={styles.brandLogo}/>
                 </div>
 
                 <nav className={styles.nav}>
@@ -24,7 +25,8 @@ const Hero = () => {
                 </nav>
             </header>
 
-            <div className={styles.content}>
+            {/* Centered Text */}
+            <div className={styles.textWrap}>
                 <h4 className={styles.subtitle}>New Single</h4>
                 <h1 className={styles.title}>War For Love</h1>
 
@@ -32,9 +34,7 @@ const Hero = () => {
                     <div className={styles.playBtn}>
                         <span>▶</span>
                     </div>
-
                     <div className={styles.timeline}></div>
-
                     <span className={styles.time}>00:22–02:54</span>
                 </div>
             </div>
